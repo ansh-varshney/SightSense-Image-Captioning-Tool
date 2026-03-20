@@ -1,9 +1,9 @@
-# SightSense - I Tell What I See 👁️
+# SightSense
 
 ## Introduction
 SightSense is an advanced **Image Captioning System** that combines **Convolutional Neural Networks (CNN)** and **Long Short-Term Memory (LSTM)** networks to automatically generate descriptive captions for images. With SightSense, the system "sees" and "understands" the content of an image and provides a human-readable description, making it useful for a wide range of applications such as accessibility, social media, and more.
 
-## Features ✨
+## Features
 - **Image Captioning**: Generates descriptive captions for images, providing meaningful text output based on the content.
 - **Real-Time Image Understanding**: The system processes images in real-time and returns descriptive captions, understanding complex visual contexts.
 - **Pre-trained Model Integration**: Leverages pre-trained CNN models (e.g., ResNet50) for efficient feature extraction from images.
@@ -11,7 +11,7 @@ SightSense is an advanced **Image Captioning System** that combines **Convolutio
 - **Customizable**: The architecture allows for customization with different CNN and LSTM configurations for improved performance on domain-specific data.
 - **Web Interface**: A user-friendly website has been created where users can upload images and receive captions instantly.
 
-## How It Works 🔍
+## How It Works
 
 ### 1. **Image Processing (CNN Encoder)**
    - **Feature Extraction**: The first step involves passing an image through a pre-trained **ResNet50** model, which extracts the high-level features of the image.
@@ -32,11 +32,11 @@ SightSense is an advanced **Image Captioning System** that combines **Convolutio
    - **Real-Time Processing**: Once the model is trained, it can process new images. The CNN extracts features from the input image, and these features are passed to the LSTM, which generates a caption.
    - **Output**: The generated caption describes the content of the image, including objects, actions, and relationships, providing a natural language output that can be used for accessibility, media tagging, and more.
 
-## Website for Caption Generation 🌐
+## Website for Caption Generation
 - A **web interface** has been developed to allow users to upload images and receive the generated captions directly. The website provides an easy-to-use experience for generating captions in real-time.
 - Users can interact with the system by simply uploading an image, and the backend processes the image, generates a caption, and displays it on the screen.
 
-## Technologies Used 🛠️
+## Technologies Used
 - **Convolutional Neural Networks (CNN)**: For feature extraction from images.
 - **Long Short-Term Memory Networks (LSTM)**: For sequence generation (captioning) based on the features.
 - **TensorFlow/Keras**: For implementing and training the CNN and LSTM models.
@@ -48,7 +48,7 @@ SightSense is an advanced **Image Captioning System** that combines **Convolutio
 - **DBMS**: For storing and managing image-caption pairs in a database for training and real-time caption generation.
 - **Flickr8k Dataset**: The dataset used for training (not included in the repo; available [here](https://www.kaggle.com/datasets/adityajn105/flickr8k)).
 
-## Conclusion 🎯
+## Conclusion
 SightSense leverages the power of **CNN** and **LSTM** to create a system capable of understanding images and generating descriptive captions that accurately reflect the content. By combining cutting-edge computer vision and natural language processing techniques, the system not only "sees" the image but also "speaks" about it in human-readable language, making it a valuable tool in various fields like accessibility, social media, and content management.
 
-With SightSense, your images can now tell a story! 📸✨
+With SightSense, your images can now tell a story!
